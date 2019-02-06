@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/relone"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/dashtxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Home"/>
+
+            <ImageView
+                android:id="@+id/imageone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_accessibility_black_24dp"
+                android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reltwo"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/dashtxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="About Us"/>
+
+        <ImageView
+            android:id="@+id/imagetwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_accessibility_black_24dp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relthree"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/dashtxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:id="@+id/imagethree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_airline_seat_flat_black_24dp"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relfour"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dashtxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Mail Us"/>
+
+        <ImageView
+            android:id="@+id/imagefour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_accessibility_black_24dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
